@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@300&display=swap');
+*::selection{
+    background-color: #00BFA5;
+    color: white;
+}
+.navbar{
+    display: flex;
+justify-content: space-around;
+position: fixed;
+width: 100%;
+top: 0;
+background-color: white;
+border-bottom: 1px solid rgba(0, 0, 0, .03);
+}
+.navbar img{
+    cursor: pointer;
+}
+.mainMenu{
+    list-style: none;
+    display: flex;
+    font-family: roboto,arial,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #81837D  
+}
+.menuItem{
+    margin-right: 20px;
+    cursor: pointer;   
+}
+.dropMenu{
+    height: 220px;
+    width: 280px;
+    display: none;
+    list-style:none;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: -180px;
+    color: #81837D;
+    cursor: pointer;
+}
+.dropMenuItem{
+    width: 240px;
+    height: 42px;
+    font-size: 15px;
+    line-height: 38px;
+  
+}
+.dropMenuItem:hover{
+    color: rgb(0,179,155)  ;
+    background-color:#ababab42  ;
+    
+}
+.menuItem:hover{
+    color: rgb(0,179,155) ;
+}
+
+.menuItem:hover .dropMenu{
+    display: FLEX;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgb(153,153,153);
+    padding: 30px 0px 0px 0px;
+    
+}
+.title{
+    text-align: center;
+   
+}
+.title img{
+    height:39px ;
+    width: 40px;
+    margin-top: 120px;
+}
+.title h1{
+    font: 300 34px "work sans",arial,sans-serif;
+    line-height: 44.2px;
+    color: rgb(0,179,155);
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    width: 1015px;
+    margin-left: 220px;
+}
+.info p{
+    height:112px ;
+    width:477.5px ;
+    font-family: roboto,arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(116,116,116);
+}
+#boxes{
+    display: flex;
+    margin: 33px 100px 60px 100px;
+    text-align: center;
+    padding-left: 8%;
+
+}
+.box1{
+    background-color: #00BFA5;
+    margin:10px ;
+    border-radius: 15px;
+    width: 312px;
+    height: 345px;
+    font-family: roboto,arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.box1 h1{
+    height: 34px;
+    width: 248px;
+    font-size: 26px;
+    line-height: 34px;
+    margin-left: -20px;
+
+}
+.box1 h2{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    margin-left:20px ;
+    margin-right: 15px;
+}
+.box2{
+    background-color: #3D83DF;
+    border-radius:15px;
+    margin: 10px;
+    height: 345px;
+    width: 312px;
+    font-family: roboto,arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    
+}
+.box2 h1{
+    height: 34px;
+    width: 248px;
+    font-size: 26px;
+    line-height: 34px;
+    margin-left: -20px;
+    
+}
+.box2 h2{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    margin-left: 10px ;
+    margin-right: 6px ;
+    padding: 0 12PX;
+}
+.box3{
+background-color: #1f2c3a;
+border-radius: 15px;
+margin: 10px;
+height: 345px;
+width: 312px;
+font-family: roboto,arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.box3 h1{
+    height: 34px;
+    width: 248px;
+    font-size: 26px;
+    line-height: 34px;
+    margin-left: -30px;
+}
+.box3 h2{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    margin-right: 20px;
+    margin-left: -20px;
+    padding-left: 40px;
+}
+.F,h2{
+    color: white;
+}
+#F{
+    text-decoration: underline;
+    border:0% ;
+    background-color: #3D83DF;
+    color: white;
+    cursor: pointer;
+    margin-right: 130px;
+
+}
+#G{
+    text-decoration: underline;
+    border:0cm ; 
+    background-color: #00BFA5;
+    color: white;
+    cursor: pointer;
+    margin-right: 130px;
+}
+#list1{
+    text-decoration: underline;
+    border: 0cm;
+    background-color: #1f2c3a;
+    color: white;
+    cursor: pointer;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+#list2{
+text-decoration: underline;
+border: 0cm;
+background-color: #1f2c3a;
+color: white;
+cursor: pointer;
+margin-right: 80px;
+}
+option{
+    background-color: aliceblue;
+    color: black;
+}
+i{
+    margin-top: 40px;
+    margin-left: -100px ;
+    margin-right:100px;
+    color: white;
+}
+.LOGOS h1{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+    color: rgb(0,179,155);
+    height: 101px;
+    width: 322px;
+    margin:7px 0 9px 0 ;
+    padding-left: 10%;
+}
+.LOGOS{
+    display: flex; 
+    justify-content:space-around; 
+    height: 117px;
+    width: 1015px;
+    margin: 40px 100px 50px 100px;
+    padding: 0 20px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    padding-left:40px ;  
+}
+.image{
+    height: 108px;
+    width: 653px;
+}
+.stats{
+    height: 600px;
+    width: 1215px;
+    margin: 50px 0 88px 0;
+    padding: 30px 250px 10px 0;
+    background-color: #E5FAF8;
+}
+.grid{
+    height: 560px;
+    width: 1015px;
+    margin: 0 100px;
+    padding: 0 20px;
+    display:flex; 
+}
+.text h1{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    line-height: 44px;
+    color: rgb(0,179,155);
+    height: 88px;
+    width: 400px;
+    margin-left: 120px;
+}
+.text p{
+    font-family: roboto,arial,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(116,116,116);
+    height: 48px;
+    width: 415px;
+    margin: 22px 0;
+    margin-left: 120px;
+}
+.text{
+    height: 560px;
+    width: 1015px;
+    margin-top: 32px ;
+    margin-left: -120px;
+    padding: 10px;
+    display: block;
+    overflow: hidden;
+}
+.text img{
+    margin-left:-30px;   
+}
+.whitebox{
+    height: 560px;
+    width: 498px;
+    padding: 10px;
+}
+.wbox1{
+    background-color: white;
+    height: 250px;
+    width: 229px;
+    border: #1f2c3a;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+.wbox1 img{
+    height: 40px;
+    width: 35px;
+    padding-top: 10px;
+}
+.wbox1 h3{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: #00b39b;
+    height: 62px;
+    width: 199px;
+    margin: 12px 0;
+}
+.wbox1 p{
+    font-family: roboto,arial,sans-serif;
+    height: 68px;
+    width: 199px;
+    color: rgb(116,116,116);
+}
+.wbox2{
+    background-color: white;
+    height: 250px;
+    width: 229px;   
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+
+}
+.wbox2 img{
+    height: 32px;
+    width: 40px;
+    padding-top: 50px;
+}
+.wbox2 h3{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: #00b39b;
+    height: 62px;
+    width: 199px;
+    margin: 12px 0;
+}
+    .wbox2 p{
+        font-family: roboto,arial,sans-serif;
+        height: 17px;
+        width: 199px;
+    color: rgb(116,116,116);
+
+}
+.wbox3{
+    background-color: white;
+    height: 250px;
+    width: 229px; 
+    text-align: center;
+    padding: 15px;  
+    margin: 15px;
+    border-radius: 5px;
+    transform: matrix(1,0,0,1,0,-30);
+}
+.wbox3 img{
+    height: 40px;
+    width: 40px;
+    padding-top: 40px;
+}
+.wbox3 h3{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: #00b39b;
+    height: 62px;
+    width: 199px;
+    margin: 12px 0;
+}
+    .wbox3 p{
+        font-family: roboto,arial,sans-serif;
+        height: 17px;
+        width: 199px;
+        color: rgb(116,116,116);
+    }
+.wbox4{
+    background-color: white;
+    height: 250px;
+    width: 229px; 
+    text-align: center;
+    padding: 15px;  
+    margin: 15px;
+    transform: matrix(1,0,0,1,0,-30);
+    border-radius: 5px;
+
+}
+.wbox4 img{
+    height: 40px;
+    width: 40px;
+    padding-top: 50px;
+}
+.wbox4 h3{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: #00b39b;
+    height: 62px;
+    width: 199px;
+    margin: 12px 0;
+}
+    .wbox4 p{
+        font-family: roboto,arial,sans-serif;
+        height: 17px;
+        width: 199px;
+        color: rgb(116,116,116);
+
+    }
+    .whitebox{
+        display: flex;
+    }
+  .J{
+margin-left: 100px;
+  }
+  .End{
+    height: 1350px;
+    width: 1115px;
+    margin: 88px 100px;
+    padding: 0 120px;
+  }
+  .header{
+    font-family: roboto,arial,sans-serif;
+    font-size: 14px;
+    line-height: 18.2px;
+    text-align: center;
+    height: 172px;
+    width: 460px;
+    margin: 0 258px 67px 258px;
+  }
+  .header h1{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    text-align: center;
+    height: 78px;
+    width: 460px;
+    color: #00b39b;
+  }
+  .header p{
+    font-family: roboto,arial,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    height: 72px;
+    width: 460px;
+    margin: 22px 0;
+    color: rgb(116,116,116);
+  }
+  .photo1{
+    height: 370px;
+    width: 332px;
+    padding: 10px; 
+  }  
+  .photo1 img{
+    height: 278px;
+    width: 309px;
+    cursor: pointer;
+    border-radius: 5px;
+   
+  }
+.com {
+    height: 70px;
+    width: 309px;
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.com p{
+margin-left: -30px;
+margin-top: 05px;
+color: rgb(116,116,116);
+}
+.com input{
+    font-family: roboto,arial,sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    height: 30px;
+    width: 104px;
+    padding: 10px 15px;
+    background-color: #3D83DF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.photo2{
+    height: 370px;
+    width: 332px;
+    padding: 10px;
+  }
+  .photo2 img{
+    height: 278px;
+    width: 309px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .photo3{
+    height: 370px;
+    width: 332px;
+    padding: 10px;
+  }
+  .photo3 img{
+    height: 278px;
+    width: 309px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .photo4{
+    height: 370px;
+    width: 332px;
+    padding: 10px;
+  }
+  .photo4 img{
+    height: 278px;
+    width: 309px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .photo5{
+    height: 370px;
+    width: 332px;
+    padding: 10px;
+  }
+  .photo5 img{
+    height: 278px;
+    width: 309px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .photo6{
+    height: 370px;
+    width: 332px;
+    padding: 10px;
+  }
+  .photo6 img{
+    height: 278px;
+    width: 309px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .photo7{
+    height: 370px;
+    width: 332px;
+    padding: 10px;
+  }
+  .photo7 img{
+    height: 278px;
+    width: 309px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .photo8{
+    height: 370px;
+    width: 332px;
+    padding: 10px;
+  }
+  .photo8 img{
+    height: 278px;
+    width: 309px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.town{
+    display: flex;
+  flex-wrap: wrap;
+}
+.join{
+ text-align: center;
+ margin: 80px 100px;
+}
+.join h1{
+    font-family: "work sans",arial,sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    margin-bottom: 23px;
+    height: 39px;
+    color: rgb(51, 51, 51);
+}
+.join input{
+    background-color: #3D83DF;
+    color: white;
+    font-family: roboto,arial,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    padding: 14px 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    font-family: roboto,arial,sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    text-align: center;
+    height: 123px;
+    width: 100%;
+    border-top: 1px solid #EEF2F2;
+    padding: 16px 0;
+}
+footer div{
+    font-family: roboto,arial,sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    height: 90px;
+    width: 1015px;
+    padding: 0 60px;
+    margin: 0 100px;
+    color: rgb(171, 171, 171);
+}
+
